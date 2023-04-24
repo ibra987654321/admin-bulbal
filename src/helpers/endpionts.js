@@ -1,0 +1,8 @@
+export const TYPE_OF_ROOM = '/typeOfRoom'
+export const MAIN_HOUSE = '/accommodation'
+export const TYPE_OF_HOUSE = '/typeOfAccommodation'
+export const TYPE_OF_BED = '/typeOfBed'
+export const REGION = '/region'
+export const LOCALITY = '/locality'
+export const NOTIFICATION = '/notification'
+export const ADVANTAGE = '/advantage'
