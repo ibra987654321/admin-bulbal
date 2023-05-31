@@ -30,18 +30,22 @@ export default {
     header: [
       { text: '№', value: 'index' },
       { text: 'Тип', value: 'name' },
+      { text: 'Вмещаемость', value: 'size' },
       { text: 'Действие', value: 'actions' },
     ],
     editedItem: {
       id: 0,
-      name: ""
+      name: "",
+      size: 0
     },
     defaultItem: {
       id: 0,
-      name: ""
+      name: "",
+      size: 0,
     },
     showToEdit: [
       { label: 'Тип', value: 'name', col: 6, type: 'input' },
+      { label: 'Вмещаемость', value: 'size', col: 6, type: 'input' },
     ],
   }),
   setup() {

@@ -306,7 +306,7 @@
       v-if="imgFilter"
       v-slot:[`item.${$props.filters.img}`]="{item}"
     >
-      <img :src="`img/${item[$props.filters.img]}`">
+      <img :src="`img/icon/${item[$props.filters.img]}`">
     </template>
     <template
       v-if="dateFilter"

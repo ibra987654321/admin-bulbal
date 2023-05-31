@@ -7,6 +7,7 @@
         :edited-items="editedItem"
         :default-item="defaultItem"
         :show-to-edit="showToEdit"
+        :filters="filters"
         :get-dispatch="'getAdvantage'"
         :post-dispatch="'postAdvantage'"
         :put-dispatch="'putAdvantage'"
@@ -53,6 +54,9 @@ export default {
       id: 0,
       name: '',
       formData: '',
+    },
+    filters: {
+      img: 'icon'
     },
     showToEdit: [
       {
